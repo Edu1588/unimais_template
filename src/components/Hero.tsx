@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="relative py-16 md:py-24 overflow-hidden">
       <div 
         className="absolute inset-0 bg-cover bg-center -scale-x-100 z-0"
-        style={{ backgroundImage: `url('https://res.cloudinary.com/djw0tqmiw/image/upload/v1782325209/eqdkcixmfwy3vvpjxetw.jpg')` }}
+        style={{ backgroundImage: `url('https://res.cloudinary.com/djw0tqmiw/image/upload/v1782336749/tzcdjii3xltjuqvsddno.png')` }}
       ></div>
       <div className="absolute inset-y-0 left-0 w-full md:w-3/4 bg-gradient-to-r from-primary via-primary/80 to-transparent z-0"></div>
       <div className="max-w-max-width mx-margin-desktop px-gutter grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
