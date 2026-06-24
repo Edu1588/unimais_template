@@ -2,7 +2,7 @@ import { PlayCircle } from 'lucide-react';
 
 export default function HowItWorks() {
   return (
-    <section className="py-section-mobile md:py-section-desktop bg-surface-gray">
+    <section id="como-funciona" className="pt-8 pb-16 md:pt-12 md:pb-24 bg-surface-gray">
       <div className="max-w-max-width mx-margin-desktop px-gutter">
         <h2 className="font-headline-md text-headline-md text-primary mb-12 text-center md:text-left">
           Como funciona?
@@ -26,7 +26,7 @@ export default function HowItWorks() {
           {/* Card 2 */}
           <div className="bg-white rounded-xl p-4 flex flex-col gap-4 border border-outline-variant shadow-sm hover:shadow-md transition-shadow">
             <div className="w-full aspect-[4/3] bg-gray-100 rounded-lg overflow-hidden flex items-center justify-center border border-outline-variant">
-              <img src="https://images.unsplash.com/photo-1560958089-b8a1929cea89?auto=format&fit=crop&q=80&w=600" alt="Avaliação" className="object-cover w-full h-full" />
+              <img src="https://res.cloudinary.com/djw0tqmiw/image/upload/v1782327386/zazcnvjomvgg2etjgic5.png" alt="Avaliação Gratuita" className="object-cover w-full h-full" />
             </div>
             <h4 className="font-headline-sm text-lg uppercase font-black text-primary leading-tight">1. Avaliação Gratuita</h4>
             <p className="text-sm text-on-surface-variant leading-relaxed">
@@ -37,7 +37,7 @@ export default function HowItWorks() {
           {/* Card 3 */}
           <div className="bg-white rounded-xl p-4 flex flex-col gap-4 border border-outline-variant shadow-sm hover:shadow-md transition-shadow">
             <div className="w-full aspect-[4/3] bg-gray-100 rounded-lg overflow-hidden flex items-center justify-center border border-outline-variant">
-               <img src="https://images.unsplash.com/photo-1512428559087-560fa5ceab42?auto=format&fit=crop&q=80&w=600" alt="App" className="object-cover w-full h-full" />
+               <img src="https://res.cloudinary.com/djw0tqmiw/image/upload/v1782327386/q80pis9mdr9wzefvx252.png" alt="Acompanhamento" className="object-cover w-full h-full" />
             </div>
             <h4 className="font-headline-sm text-lg uppercase font-black text-primary leading-tight">2. Acompanhamento</h4>
             <p className="text-sm text-on-surface-variant leading-relaxed">
@@ -59,7 +59,7 @@ export default function HowItWorks() {
           {/* Card 5 */}
           <div className="bg-white rounded-xl p-4 flex flex-col gap-4 border border-outline-variant shadow-sm hover:shadow-md transition-shadow">
             <div className="w-full aspect-[4/3] bg-gray-100 rounded-lg overflow-hidden flex items-center justify-center border border-outline-variant">
-               <img src="https://images.unsplash.com/photo-1580519542036-ed47f3e42214?auto=format&fit=crop&q=80&w=600" alt="Pagamento" className="object-cover w-full h-full" />
+               <img src="https://res.cloudinary.com/djw0tqmiw/image/upload/v1782327386/saxjaink2abjqlofpyye.png" alt="Pagamento à Vista" className="object-cover w-full h-full" />
             </div>
             <h4 className="font-headline-sm text-lg uppercase font-black text-primary leading-tight">4. Pagamento à Vista</h4>
             <p className="text-sm text-on-surface-variant leading-relaxed">

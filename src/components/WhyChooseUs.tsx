@@ -10,7 +10,7 @@ export default function WhyChooseUs() {
           <div className="w-64 h-64 md:w-80 md:h-80 lg:w-[450px] lg:h-[450px] rounded-full overflow-hidden border-[8px] border-white shadow-xl relative z-10 shrink-0">
             <img 
               src="https://images.unsplash.com/photo-1652509573480-a190f1c61f6d?q=80&w=688&auto=format&fit=crop" 
-              alt="Cliente feliz na UniMais" 
+              alt="Cliente feliz na Unimais" 
               className="w-full h-full object-cover"
             />
           </div>
@@ -19,7 +19,7 @@ export default function WhyChooseUs() {
         {/* Right: Content */}
         <div className="w-full lg:w-[55%] relative z-10 py-16 px-gutter lg:pr-gutter lg:pl-10 flex flex-col justify-center">
           <h2 className="font-headline-md text-3xl md:text-4xl font-bold mb-12 leading-tight">
-            Porque escolher a<br/>UniMais Veículos?
+            Porque escolher a<br/>Unimais Veículos?
           </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-10">

@@ -5,13 +5,13 @@ export default function Hero() {
     <section className="relative py-16 md:py-24 overflow-hidden">
       <div 
         className="absolute inset-0 bg-cover bg-center -scale-x-100 z-0"
-        style={{ backgroundImage: `url('https://res.cloudinary.com/djw0tqmiw/image/upload/v1782318611/x7vphyz1a8i0zdtgyywu.jpg')` }}
+        style={{ backgroundImage: `url('https://res.cloudinary.com/djw0tqmiw/image/upload/v1782325209/eqdkcixmfwy3vvpjxetw.jpg')` }}
       ></div>
       <div className="absolute inset-y-0 left-0 w-full md:w-3/4 bg-gradient-to-r from-primary via-primary/80 to-transparent z-0"></div>
       <div className="max-w-max-width mx-margin-desktop px-gutter grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
         <div className="max-w-xl">
           <h1 className="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-white mb-6">
-            Venda seu carro <br/><span className="text-action-orange">hoje mesmo.</span> Rápido e Seguro.
+            Venda seu carro <span className="text-action-orange">agora.</span><br/>De forma rápida e segura.
           </h1>
           <p className="font-body-lg text-body-lg text-white/90 mb-8">
             Pagamento à vista, sem burocracia ou surpresas. Tranquilidade garantida por quem atua no mercado desde 2015 com mais de 40.000 carros negociados.

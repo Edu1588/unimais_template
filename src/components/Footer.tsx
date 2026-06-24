@@ -1,4 +1,5 @@
-import { Facebook, Instagram, MessageCircle } from 'lucide-react';
+import { Facebook, Instagram } from 'lucide-react';
+import { WhatsAppIcon } from './icons/WhatsAppIcon';
 
 export default function Footer() {
   return (
@@ -8,7 +9,7 @@ export default function Footer() {
         <div className="lg:col-span-4 flex flex-col gap-6">
           <img 
             src="https://unimaisveiculos.com.br/wp-content/uploads/2025/02/logo_unimais-1.svg" 
-            alt="UniMais Veículos" 
+            alt="Unimais Veículos" 
             className="h-14 w-auto object-contain object-left mb-2" 
           />
           <p className="text-sm leading-relaxed opacity-90 pr-4">
@@ -78,7 +79,7 @@ export default function Footer() {
           <div className="flex gap-5 mt-6 opacity-90">
             <a href="https://www.facebook.com/unimaisveiculos" target="_blank" rel="noopener noreferrer" className="hover:text-action-orange transition-colors"><Facebook className="w-5 h-5" /></a>
             <a href="https://www.instagram.com/unimais_veiculos" target="_blank" rel="noopener noreferrer" className="hover:text-action-orange transition-colors"><Instagram className="w-5 h-5" /></a>
-            <a href="https://api.whatsapp.com/send?phone=551937271000&text=Ol%C3%A1,%20eu%20estava%20no%20seu%20site,%20preciso%20de%20atendimento%20comercial" target="_blank" rel="noopener noreferrer" className="hover:text-action-orange transition-colors"><MessageCircle className="w-5 h-5" /></a>
+            <button onClick={() => window.dispatchEvent(new CustomEvent('openWhatsAppModal'))} className="hover:text-action-orange transition-colors bg-transparent border-none p-0"><WhatsAppIcon className="w-5 h-5" /></button>
           </div>
         </div>
       </div>

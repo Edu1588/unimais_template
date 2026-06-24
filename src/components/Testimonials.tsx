@@ -4,11 +4,11 @@ export default function Testimonials() {
   const reviews = [
     {
       name: "Carlos Eduardo",
-      text: "Vendi meu carro na loja do Castelo e foi super rápido. Avaliaram na hora e o dinheiro caiu na minha conta no mesmo dia. Recomendo muito a UniMais para quem quer vender sem dor de cabeça!",
+      text: "Vendi meu carro na loja do Castelo e foi super rápido. Avaliaram na hora e o dinheiro caiu na minha conta no mesmo dia. Recomendo muito a Unimais para quem quer vender sem dor de cabeça!",
     },
     {
       name: "Mariana Costa",
-      text: "Estava com receio de vender meu seminovo, mas a equipe da UniMais nas Amoreiras foi muito transparente. O processo foi 100% seguro e a avaliação foi muito justa. Excelente atendimento.",
+      text: "Estava com receio de vender meu seminovo, mas a equipe da Unimais nas Amoreiras foi muito transparente. O processo foi 100% seguro e a avaliação foi muito justa. Excelente atendimento.",
     },
     {
       name: "Roberto Alves",
@@ -17,7 +17,7 @@ export default function Testimonials() {
   ];
 
   return (
-    <section className="py-section-mobile md:py-section-desktop bg-surface">
+    <section className="pt-16 pb-8 md:pt-24 md:pb-12 bg-surface">
       <div className="max-w-max-width mx-margin-desktop px-gutter">
         <h2 className="font-headline-md text-headline-md text-primary mb-8 md:text-center text-left">
           O que nossos clientes falam sobre nós

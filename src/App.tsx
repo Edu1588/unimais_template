@@ -9,8 +9,10 @@ import CTA from './components/CTA';
 import Footer from './components/Footer';
 import MobileNav from './components/MobileNav';
 import WhatsAppButton from './components/WhatsAppButton';
-
 import FullImageSection from './components/FullImageSection';
+import DiagnosticSection from './components/DiagnosticSection';
+import OurStores from './components/OurStores';
+import WhatsAppModal from './components/WhatsAppModal';
 
 export default function App() {
   return (
@@ -22,6 +24,8 @@ export default function App() {
         <HowItWorks />
         <WhyChooseUs />
         <SocialProof />
+        <DiagnosticSection />
+        <OurStores />
         <FAQ />
         <CTA />
         <FullImageSection />
@@ -29,6 +33,7 @@ export default function App() {
       <Footer />
       <MobileNav />
       <WhatsAppButton />
+      <WhatsAppModal />
     </div>
   );
 }
