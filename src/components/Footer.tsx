@@ -1,0 +1,87 @@
+import { Facebook, Instagram, MessageCircle } from 'lucide-react';
+
+export default function Footer() {
+  return (
+    <footer className="w-full py-16 bg-primary text-white">
+      <div className="px-gutter max-w-max-width mx-margin-desktop grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8">
+        
+        <div className="lg:col-span-4 flex flex-col gap-6">
+          <img 
+            src="https://unimaisveiculos.com.br/wp-content/uploads/2025/02/logo_unimais-1.svg" 
+            alt="UniMais Veículos" 
+            className="h-14 w-auto object-contain object-left mb-2" 
+          />
+          <p className="text-sm leading-relaxed opacity-90 pr-4">
+            A Unimais Veículos está há mais de 10 anos no mercado, com 4 lojas na região de Campinas - 3 na cidade de Campinas e 1 em Hortolândia. Com mais de 40 mil veículos negociados, somos uma revenda de carros novos e seminovos de alta procedência, garantindo a você um excelente negócio com qualidade e satisfação.
+          </p>
+          <div className="mt-4">
+            <h4 className="font-bold text-base mb-4 pb-2 border-b border-blue-600/50 block w-full max-w-[250px]">Horário de Funcionamento</h4>
+            <div className="flex flex-col gap-4 mt-2 text-sm opacity-90">
+              <div>
+                <strong className="block mb-0.5">Segunda à Sexta</strong>
+                <span>08:00 - 19:00</span>
+              </div>
+              <div>
+                <strong className="block mb-0.5">Sábados</strong>
+                <span>08:00 - 17:00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="lg:col-span-4 flex flex-col gap-6 lg:pl-8">
+           <div>
+            <h4 className="font-bold text-base mb-6 pb-2 border-b border-blue-600/50 block w-full max-w-[200px]">Mapa do Site</h4>
+            <div className="grid grid-cols-2 gap-x-4 gap-y-4 text-sm opacity-90">
+              <a href="#" className="hover:text-action-orange transition-colors">Home</a>
+              <a href="#" className="hover:text-action-orange transition-colors">Blog</a>
+              <a href="#" className="hover:text-action-orange transition-colors">Estoque</a>
+              <a href="#" className="hover:text-action-orange transition-colors">Contato</a>
+              <a href="#" className="hover:text-action-orange transition-colors">Quero vender</a>
+              <a href="#" className="hover:text-action-orange transition-colors">Termos de uso e privacidade</a>
+              <a href="#" className="hover:text-action-orange transition-colors">Financiamento</a>
+              <a href="#" className="hover:text-action-orange transition-colors">Área Restrita</a>
+              <a href="#" className="hover:text-action-orange transition-colors">Encontrar veículo</a>
+              <a href="#" className="hover:text-action-orange transition-colors">Condições e regulamento</a>
+            </div>
+           </div>
+        </div>
+
+        <div className="lg:col-span-4 flex flex-col gap-6">
+          <div>
+            <h4 className="font-bold text-base mb-6 pb-2 border-b border-blue-600/50 block w-full max-w-[200px]">Entre em contato</h4>
+            <div className="flex flex-col gap-4 text-sm opacity-90">
+              <p>contato@unimaisveiculos.com.br</p>
+              <p>Fone: (19) 3727-1000</p>
+              
+              <div className="mt-4 space-y-6">
+                <div>
+                  <strong className="block mb-1">Loja 1 – Amoreiras</strong>
+                  <span className="leading-snug block">Avenida das Amoreiras nº 3247<br/>Jardim do Lago – Campinas – SP</span>
+                </div>
+                <div>
+                  <strong className="block mb-1">Loja 2 – Castelo</strong>
+                  <span className="leading-snug block">Avenida Francisco José de Camargo Andrade, 520<br/>Jardim Chapadão – Campinas – SP</span>
+                </div>
+                <div>
+                  <strong className="block mb-1">Loja 3 – Domício</strong>
+                  <span className="leading-snug block">Rua Domício Pachêco e Silva, 726<br/>Jardim Novo Campos Eliseos – Campinas – SP</span>
+                </div>
+                <div>
+                  <strong className="block mb-1">Loja 4 – Hortolândia</strong>
+                  <span className="leading-snug block">Av. Olivio Franceschini, 2071<br/>Pq São Miguel – Hortolândia – SP</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div className="flex gap-5 mt-6 opacity-90">
+            <a href="https://www.facebook.com/unimaisveiculos" target="_blank" rel="noopener noreferrer" className="hover:text-action-orange transition-colors"><Facebook className="w-5 h-5" /></a>
+            <a href="https://www.instagram.com/unimais_veiculos" target="_blank" rel="noopener noreferrer" className="hover:text-action-orange transition-colors"><Instagram className="w-5 h-5" /></a>
+            <a href="https://api.whatsapp.com/send?phone=551937271000&text=Ol%C3%A1,%20eu%20estava%20no%20seu%20site,%20preciso%20de%20atendimento%20comercial" target="_blank" rel="noopener noreferrer" className="hover:text-action-orange transition-colors"><MessageCircle className="w-5 h-5" /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+}
