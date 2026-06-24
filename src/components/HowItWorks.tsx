@@ -8,21 +8,7 @@ export default function HowItWorks() {
           Como funciona?
         </h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
-          {/* Card 1: Video */}
-          <div className="bg-white rounded-xl p-4 flex flex-col gap-4 border border-outline-variant shadow-sm hover:shadow-md transition-shadow">
-            <div className="relative w-full aspect-[4/3] bg-gray-800 rounded-lg overflow-hidden group cursor-pointer">
-              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=600" alt="Video thumbnail" className="object-cover w-full h-full opacity-80 group-hover:opacity-100 transition-opacity" />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <PlayCircle className="w-14 h-14 text-action-orange drop-shadow-lg" fill="currentColor" />
-              </div>
-            </div>
-            <h4 className="font-headline-sm text-lg uppercase font-black text-primary leading-tight">Vídeo - Jornada Completa</h4>
-            <p className="text-sm text-on-surface-variant leading-relaxed">
-              Nossa plataforma garante a melhor negociação. Em poucas etapas você vende seu veículo com a melhor oferta e pagamento à vista.
-            </p>
-          </div>
-
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* Card 2 */}
           <div className="bg-white rounded-xl p-4 flex flex-col gap-4 border border-outline-variant shadow-sm hover:shadow-md transition-shadow">
             <div className="w-full aspect-[4/3] bg-gray-100 rounded-lg overflow-hidden flex items-center justify-center border border-outline-variant">
