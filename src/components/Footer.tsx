@@ -1,5 +1,6 @@
 import { Facebook, Instagram } from 'lucide-react';
 import { WhatsAppIcon } from './icons/WhatsAppIcon';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -40,9 +41,9 @@ export default function Footer() {
               <a href="#" className="hover:text-action-orange transition-colors">Contato</a>
               <a href="#" className="hover:text-action-orange transition-colors">Quero vender</a>
               <a href="#" className="hover:text-action-orange transition-colors">Termos de uso e privacidade</a>
-              <a href="#" className="hover:text-action-orange transition-colors">Financiamento</a>
+              <Link to="/financiamento" className="hover:text-action-orange transition-colors">Financiamento</Link>
               <a href="#" className="hover:text-action-orange transition-colors">Área Restrita</a>
-              <a href="#" className="hover:text-action-orange transition-colors">Encontrar veículo</a>
+              <Link to="/encontrar-veiculo" className="hover:text-action-orange transition-colors">Encontrar veículo</Link>
               <a href="#" className="hover:text-action-orange transition-colors">Condições e regulamento</a>
             </div>
            </div>
