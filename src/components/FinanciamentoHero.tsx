@@ -14,18 +14,8 @@ export default function FinanciamentoHero() {
       
       <div className="max-w-max-width mx-margin-desktop px-gutter grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10 w-full">
         
-        {/* Left side: Hero Text */}
-        <div className="max-w-xl text-white">
-          <h1 className="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg mb-6 leading-tight">
-            Seu carro novo mais perto com <span className="text-action-orange">parcelas que cabem no seu bolso</span>
-          </h1>
-          <p className="font-body-lg text-body-lg text-white/90 mb-8 max-w-lg">
-            Taxas imperdíveis, aprovação ágil e condições flexíveis. Faça uma simulação rápida e dê o primeiro passo para sua próxima conquista.
-          </p>
-        </div>
-
-        {/* Right side: Form with Car/Moto choice */}
-        <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl shadow-2xl border border-white/20 h-fit max-w-md mx-auto w-full">
+        {/* Left side: Form with Car/Moto choice */}
+        <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl shadow-2xl border border-white/20 h-fit max-w-md mx-auto lg:mx-0 w-full order-2 lg:order-1">
           <h3 className="font-bold text-xl text-white mb-6 text-center">Qual veículo você quer financiar?</h3>
           
           <div className="flex gap-4 mb-8 justify-center">
@@ -86,6 +76,16 @@ export default function FinanciamentoHero() {
             </button>
             <p className="text-xs text-center text-white/70 mt-2">Ao continuar, você concorda com nossa Política de Privacidade.</p>
           </form>
+        </div>
+
+        {/* Right side: Hero Text */}
+        <div className="max-w-xl text-white order-1 lg:order-2 lg:ml-auto">
+          <h1 className="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg mb-6 leading-tight text-right lg:text-left">
+            Seu carro novo mais perto com <span className="text-action-orange">parcelas que cabem no seu bolso</span>
+          </h1>
+          <p className="font-body-lg text-body-lg text-white/90 mb-8 max-w-lg text-right lg:text-left">
+            Taxas imperdíveis, aprovação ágil e condições flexíveis. Faça uma simulação rápida e dê o primeiro passo para sua próxima conquista.
+          </p>
         </div>
 
       </div>
