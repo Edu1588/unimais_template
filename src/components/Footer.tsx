@@ -14,7 +14,7 @@ export default function Footer() {
             className="h-14 w-auto object-contain object-left mb-2" 
           />
           <p className="text-sm leading-relaxed opacity-90 pr-4">
-            A Unimais Veículos está há mais de 10 anos no mercado, com 4 lojas na região de Campinas - 3 na cidade de Campinas e 1 em Hortolândia. Com mais de 40 mil veículos negociados, somos uma revenda de carros novos e seminovos de alta procedência, garantindo a você um excelente negócio com qualidade e satisfação.
+            A Unimais Veículos está há mais de 10 anos no mercado, com 5 lojas na região de Campinas - 4 na cidade de Campinas e 1 em Hortolândia. Com mais de 40 mil veículos negociados, somos uma revenda de carros novos e seminovos de alta procedência, garantindo a você um excelente negócio com qualidade e satisfação.
           </p>
           <div className="mt-4">
             <h4 className="font-bold text-base mb-4 pb-2 border-b border-blue-600/50 block w-full max-w-[250px]">Horário de Funcionamento</h4>

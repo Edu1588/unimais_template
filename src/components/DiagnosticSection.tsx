@@ -5,7 +5,7 @@ export default function DiagnosticSection() {
     <section className="text-white overflow-hidden py-16 md:py-24 relative">
       <div 
         className="absolute inset-0 bg-cover bg-center z-0"
-        style={{ backgroundImage: `url('https://res.cloudinary.com/djw0tqmiw/image/upload/v1782326764/korrszgqn5iqq2jqvxkf.png')` }}
+        style={{ backgroundImage: `url('https://res.cloudinary.com/djw0tqmiw/image/upload/v1782834271/vbelvbcngrygaj1m2nqu.png')` }}
       ></div>
       
       <div className="max-w-max-width mx-margin-desktop px-gutter relative z-10">

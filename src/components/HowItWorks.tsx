@@ -12,7 +12,7 @@ export default function HowItWorks() {
           {/* Card 2 */}
           <div className="bg-primary rounded-xl p-4 flex flex-col gap-4 shadow-sm hover:shadow-md transition-shadow">
             <div className="w-full aspect-[4/3] bg-gray-100 rounded-lg overflow-hidden flex items-center justify-center border border-outline-variant">
-              <img src="https://res.cloudinary.com/djw0tqmiw/image/upload/v1782327386/zazcnvjomvgg2etjgic5.png" alt="Avaliação Gratuita" className="object-cover w-full h-full" />
+              <img src="https://res.cloudinary.com/djw0tqmiw/image/upload/v1782834272/eoaokoogzn1ca59keih2.png" alt="Avaliação Gratuita" className="object-cover w-full h-full" />
             </div>
             <h4 className="font-headline-sm text-lg uppercase font-black text-white leading-tight">1. Avaliação Gratuita</h4>
             <p className="text-sm text-white/90 leading-relaxed">

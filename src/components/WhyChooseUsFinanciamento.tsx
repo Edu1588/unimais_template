@@ -52,7 +52,7 @@ export default function WhyChooseUsFinanciamento() {
         <div className="relative">
           <div className="absolute inset-0 bg-gradient-to-t from-primary via-transparent to-transparent z-10 lg:hidden"></div>
           <img 
-            src="https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?auto=format&fit=crop&q=80&w=800" 
+            src="https://res.cloudinary.com/djw0tqmiw/image/upload/v1782836144/g6deu1mltyt5fh0bdbto.png" 
             alt="Cliente feliz com chave do carro" 
             className="w-full h-full object-cover rounded-2xl"
           />

@@ -8,7 +8,7 @@ export default function OurStores() {
       address: "Avenida das Amoreiras, 3247\nJardim do Lago – Campinas – SP",
       mapLink: "https://maps.app.goo.gl/4Q36u347f5H6eT3d6",
       phone: "(19) 3727-1000",
-      image: "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEv2M2opTvwVzlbDXR6_ztKoZe-GlrdEf2PnQr4bLZFTVGAAxAS-Bw6GKFTYy5nppOtL8k0XA1ccwmF9qaWWgM7UKONVzypYmy3WkePMRk9sFZ-mr8mKjwKwjfR_6BvVIZFQVK2=s680-w680-h510"
+      image: "https://res.cloudinary.com/djw0tqmiw/image/upload/v1782835625/b9885128-c24c-4c2a-81a7-8671e60dceb3.png"
     },
     {
       name: "Loja 2 – Castelo",
@@ -22,14 +22,14 @@ export default function OurStores() {
       address: "Rua Domício Pachêco e Silva, 726\nJardim Novo Campos Eliseos – Campinas – SP",
       mapLink: "https://maps.app.goo.gl/7n9n6n9n6n9n6n9n6",
       phone: "(19) 3727-1000",
-      image: "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEAIeXUtEJov1Vpcoa3kCG2qP_gh7JroeNLcl5M5iw2OrBNFi04a50ND6nHX83fOp6zcqHKqIWf1CccFbEB1OTZQU22RG61_PXVlRmoZuRuqw8g2q9lhXh8zhtBBTCiuFkIMAQ=s680-w680-h510"
+      image: "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEJRY-ZmftEip4_oFSyxmmA8edZ3hOf_Tg_GEKv5JUm6vrjeHaL909hM-UjT_RCZdHJUOvgEw-if_vCR7kUd15mv7O1Kx2cA65G2uiCCB6fGp_zYieib-CTwoAsfF4EinqvnD-KoQ=s680-w680-h510"
     },
     {
       name: "Loja 4 – Hortolândia",
       address: "Av. Olivio Franceschini, 2071\nPq São Miguel – Hortolândia – SP",
       mapLink: "https://maps.app.goo.gl/6n9n6n9n6n9n6n9n6",
       phone: "(19) 3727-1000",
-      image: "https://lh3.googleusercontent.com/grass-cs/ANxoTn1oEaYYoXmMi0XnVr2BVBsLhCa1SKEgy5qRyya4V7cxtLTfZqgr4hYFesfwebr9V02T13TbsMcFh870TAP3YpL1lVd1PmmnbNmcsIhtjFaphYrat5wvpqayZ_dYX-7_9vU_7wkDTCRaTehZ=s680-w680-h510"
+      image: "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFsLBu09BVpQFfK7n-PNW_7fFlx6xqSc7OST77-wBreF5gbqIF-mzr7Z4E5caMdpqL_Sk8DHnRsp9c64JkwzNtl5Ye3C1slLiqrwlOZFS7eM8iTjxW-it5wwrJvGWwyA8HXSl3-kw=s680-w680-h510"
     }
   ];
 
@@ -63,10 +63,15 @@ export default function OurStores() {
                   <p className="text-sm whitespace-pre-line leading-relaxed">{store.address}</p>
                 </a>
                 
-                <div className="flex items-center gap-3 text-white/90 font-medium">
-                  <Phone className="w-5 h-5 shrink-0 text-action-orange" />
-                  <p>{store.phone}</p>
-                </div>
+                <a 
+                  href={`https://wa.me/551937271000?text=${encodeURIComponent('Olá, gostaria de falar com um consultor da ' + store.name)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 text-white/90 font-medium hover:text-white transition-colors group"
+                >
+                  <Phone className="w-5 h-5 shrink-0 text-whatsapp-green group-hover:scale-110 transition-transform" />
+                  <p>Fale com a gente</p>
+                </a>
               </div>
             </div>
           ))}

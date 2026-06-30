@@ -8,7 +8,7 @@ export default function FinanciamentoHero() {
     <section className="relative py-16 md:py-24 overflow-hidden min-h-[80vh] flex items-center">
       <div 
         className="absolute inset-0 bg-cover bg-center z-0"
-        style={{ backgroundImage: `url('https://res.cloudinary.com/djw0tqmiw/image/upload/v1782821963/te0xixw4myzjiohgr5zy.png')` }}
+        style={{ backgroundImage: `url('https://res.cloudinary.com/djw0tqmiw/image/upload/v1782834352/uidye666vguwodptrba9.png')` }}
       ></div>
       <div className="absolute inset-y-0 left-0 w-full md:w-3/4 bg-gradient-to-r from-primary via-primary/80 to-transparent z-0"></div>
       

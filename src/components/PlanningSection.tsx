@@ -21,7 +21,7 @@ export default function PlanningSection() {
           </p>
         </div>
         <div className="relative rounded-2xl overflow-hidden shadow-xl aspect-square lg:aspect-auto lg:h-[600px] border-4 border-white">
-          <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=800" alt="Planejamento financeiro" className="object-cover w-full h-full" />
+          <img src="https://res.cloudinary.com/djw0tqmiw/image/upload/v1782834726/xnd8nzcuoxj1rzzmywfj.jpg" alt="Planejamento financeiro" className="object-cover w-full h-full" />
         </div>
       </div>
     </section>

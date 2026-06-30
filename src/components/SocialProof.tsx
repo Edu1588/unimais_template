@@ -15,7 +15,7 @@ export default function SocialProof() {
         <div className="flex items-center gap-4">
           <Store className="w-12 h-12" />
           <div className="text-left">
-            <div className="font-headline-md text-headline-md">4 Lojas</div>
+            <div className="font-headline-md text-headline-md">5 Lojas</div>
             <div className="font-label-md text-label-md opacity-90">Em Campinas e região</div>
           </div>
         </div>
